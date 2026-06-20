@@ -1,3 +1,4 @@
+import { ProgressiveLightMap } from "three/examples/jsm/Addons.js";
 import { OrbitingCircles } from "./OrbitingCircles";
 
 export function Frameworks() {
@@ -11,6 +12,9 @@ export function Frameworks() {
     "tailwindcss",
     "nodejs",
     "expressjs",
+    "prisma",
+    "postgresql",
+    "mysql"
   ];
   return (
     <div className="relative flex h-[15rem] w-full flex-col items-center justify-center">

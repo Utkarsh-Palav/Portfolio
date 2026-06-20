@@ -1,6 +1,41 @@
 export const myProjects = [
   {
     id: 1,
+    title: "MM Mithaiwala - Premium E-Commerce Platform With Admin Panel",
+    description:
+      "A highly performant e-commerce platform built for a legacy Indian sweets brand, featuring a seamless shopping experience and state-of-the-art visual design.",
+    subDescription: [
+      "Developed a modern, responsive storefront with dynamic category filtering, a real-time cart using Zustand, and an editorial-style product catalog.",
+      "Built with Next.js, TypeScript, Tailwind CSS, and Prisma (PostgreSQL), and enhanced with fluid Framer Motion animations for a premium user experience.",
+    ],
+    href: "https://taskify.utkarshdev.me",
+    logo: "",
+    image: "/assets/projects/mm_mithaiwala.png",
+    tags: [
+      {
+        id: 1,
+        name: "MongoDB",
+        path: "/assets/logos/nextjs.svg",
+      },
+      {
+        id: 2,
+        name: "Express.js",
+        path: "/assets/logos/tailwindcss.svg",
+      },
+      {
+        id: 3,
+        name: "React",
+        path: "/assets/logos/prisma.svg",
+      },
+      {
+        id: 4,
+        name: "Node.js",
+        path: "/assets/logos/nodejs.svg",
+      },
+    ],
+  },
+  {
+    id: 2,
     title: "TMS (Task Management System) - SaaS Application",
     description:
       "This is a SaaS-based Task Management System designed for multiple organizations to manage their departments, employees, tasks, and internal communications — all in one platform.",
@@ -8,9 +43,9 @@ export const myProjects = [
       "A multi-organization task manager that allows Bosses to create departments, assign managers/employees, and track tasks efficiently.",
       "Built using the MERN stack (MongoDB, Express, React, Node.js) with real-time features like employee status updates via Socket.IO.",
     ],
-    href: "https://saas-tms-frontend.onrender.com",
+    href: "https://taskify.utkarshdev.me",
     logo: "",
-    image: "/assets/projects/tms2.png",
+    image: "/assets/projects/taskify.png",
     tags: [
       {
         id: 1,
@@ -35,7 +70,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     title: "Foodza - The food delivery app",
     description:
       "A complete food ordering website / app using React JS, MongoDB, Express, Node JS and Razorpay payment gateway.",
@@ -71,7 +106,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 3,
+    id: 4,
     title: "Pooja Salon",
     description:
       "Built a full-stack salon booking website using Next.js, Tailwind CSS, Reactbits, and Clerk for user authentication.",
@@ -107,7 +142,7 @@ export const myProjects = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     title: "Apple iPhone 3D Showcase Website",
     description:
       "Built using React, Tailwind CSS, GSAP, and Three.js to create a visually stunning and interactive product showcase.",
@@ -163,8 +198,23 @@ export const mySocials = [
 
 export const experiences = [
   {
+    title: "Full Stack Developer",
+    job: "",
+    date: "January 2026",
+    contents: [
+      "Architected a multi-tenant ERP system using Database-per-Tenant model, ensuring secure data isolation across organizations.",
+      "Developed backend services using Node.js, Express, and PostgreSQL for modules like inventory, billing, payments, and user management.",
+      "Implemented Redis caching, reducing API latency by 30% and improving system performance under concurrent load.",
+      "Designed rate limiting mechanisms to handle high traffic and prevent API abuse.",
+      "Built secure authentication system using JWT cookies and RBAC for multi-role access control.",
+      "Integrated ElectricSQL and PGlite to enable offline-first architecture with real-time data synchronization.",
+      "Developed AI-driven workflow system enabling natural language-based CRUD operations.",
+      "Optimized database queries and indexing strategies, improving query execution performance.",
+    ],
+  },
+  {
     title: "Web Developer",
-    job: "Web Developer & Social Media Handling",
+    job: "& Social Media Handling",
     date: "March 2025",
     contents: [
       "Contributed to the company's digital transformation by developing and maintaining internal and external websites.",
